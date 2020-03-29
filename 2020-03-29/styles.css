@@ -5,6 +5,10 @@
   /* font-family: Palitino, sans-serif; */
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   width: 80%;
 }
@@ -60,7 +64,13 @@ img {
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
+@media screen {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 900px) {
   .main {
     grid-template-columns: 1fr;
     grid-column-gap: 0;
